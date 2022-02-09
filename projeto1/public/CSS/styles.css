@@ -1,0 +1,185 @@
+/*G*/
+
+
+*{
+    font-family: 'Roboto';
+
+}
+
+body {
+    background-image: url("../img/banner3.jpg");
+    min-height: 100vh ;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.msg{
+    background-color: #fff;
+    color: darkgreen;
+    border: 1px solid #ccc;
+    width: 100px;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: #f2a340;
+    border:  2px solid #c28008;
+}
+
+.btn-primary:hover{
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+
+/* navbar*/
+
+
+#navbar img {
+   width: 73px;
+
+}
+
+#navbar{
+
+
+    justify-content: space-between;
+    background-color: rgb(252, 255, 250);
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #f2a340;
+}
+
+/*search container*/
+
+#search-container{
+    background-image: url("../img/banner5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+#search-container h1 {
+    color: black;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*list*/
+
+#events-container{
+    padding: 50px;
+}
+
+#events-container h2{
+    margin-bottom: 10px;
+}
+
+
+#events-container .subtitle {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#cards-contaneir {
+    display: flex;
+}
+
+#events-container .card{
+    flex: 1 1 20%;
+    max-width: 15%;
+    border-radius:  10px;
+    padding: 0;
+    margin: 3%;
+}
+
+#events-container img{
+    max-width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*vender */
+
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+/*vendas*/
+
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+ #info-container p {
+     margin: 0;
+     font-size: 14px;
+     display: flex;
+ }
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: #c28008;
+    color: #000;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
